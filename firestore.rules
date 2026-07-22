@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Rules for cyber crime hotspot incidents and scam reports
+    match /incidents/{incidentId} {
+      allow read, write: if true;
+    }
+
+    // Rules for citizen safety / shield assessments
+    match /shield_assessments/{assessmentId} {
+      allow read, write: if true;
+    }
+
+    // Rules for fraud blacklist entries
+    match /fraud_blacklist/{entryId} {
+      allow read, write: if true;
+    }
+  }
+}
+

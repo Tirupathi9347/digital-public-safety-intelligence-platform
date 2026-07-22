@@ -1,0 +1,6 @@
+{
+  "name": "CyberShield Public Safety App V2",
+  "description": "AI-powered intelligence platform for law enforcement and citizens to detect, disrupt, and prevent digital arrest scams, counterfeit currency circulation, and cyber fraud networks.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

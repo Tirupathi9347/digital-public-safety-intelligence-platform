@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "incidents": {
+      "id": "string",
+      "title": "string",
+      "type": "string",
+      "severity": "string",
+      "lat": "number",
+      "lng": "number",
+      "description": "string",
+      "status": "string",
+      "timestamp": "string",
+      "syncedAt": "string"
+    },
+    "shield_assessments": {
+      "message": "string",
+      "language": "string",
+      "assessment": "object",
+      "timestamp": "string"
+    },
+    "fraud_blacklist": {
+      "id": "string",
+      "identifier": "string",
+      "category": "string",
+      "scamType": "string",
+      "severity": "string",
+      "status": "string",
+      "reportCount": "number",
+      "firstReportedDate": "string",
+      "lastReportedDate": "string",
+      "description": "string",
+      "verifiedByLea": "boolean"
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}
